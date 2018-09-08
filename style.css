@@ -1,0 +1,173 @@
+/* element */
+html{
+    background: #131313;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    line-height: 25px;
+}
+header{
+    background: #353535;
+    display: flex;
+    justify-content: space-between;
+    height: 3.5em;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    align-items: center;
+}
+
+main{
+    margin: 20px 7%;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    width: 400px;
+}
+hr{
+    margin-bottom: 20px;
+}
+/* class */
+/*header*/
+.menu{
+    height: 25px;
+}
+
+.logo{
+    height: 25px;
+}
+
+.yt-icon{
+    display: inline;
+}
+
+.yt-icon .menu{
+    margin: 0 25px;
+}
+.search-btn{
+    background-image: url("/image/yt-search.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.header-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15%;
+}
+
+.header-right img {
+    width: 25px;
+}
+
+.search-bar form input{
+    background-color: #121212;
+    border: none;
+    height: 30px;
+    width: 70vh;
+}
+
+/*video player*/
+
+.video-player{
+    width: 1188px;
+}
+.video-under-right div img{
+    height: 25px;
+}
+.video-under{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.video-under-right div{
+    display: flex;
+    align-items: center;
+}
+.video-under-right{
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+.stat{
+    margin-left: 10px;
+}
+.video-info{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    margin-left: -500px;
+}
+
+.video-preview{
+    float: left;
+}
+.next-video{
+    clear: left;
+    margin-bottom: 40px;
+}
+
+.upnext-autoplay{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#sort-by img{
+    width: 35px;
+    height: 35px;
+}
+
+.comment-count{
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#channel-avatar{
+    width: 45px;
+    height: 45px;
+}
+
+#self-picture{
+    width: 40px;
+    height:40px;
+    margin-right: 20px;
+}
+.self-comment{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 30px;
+}
+.self-comment form input{
+    width: 1128px;
+}
+.self-comment form div{
+    display: flex;
+}
+.self-comment form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.comment img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+.comment{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.vote img{
+    width: 20px;
+    height: 20px;
+}
